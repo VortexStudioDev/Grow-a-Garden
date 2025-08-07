@@ -1,4 +1,6 @@
 --[[ 
+    @author depso (depthso)
+    @description Grow a Garden auto-farm script
     @brand VortexTeam™
     https://www.roblox.com/games/126884695634066
 ]]
@@ -19,7 +21,7 @@ local ShecklesCount = Leaderstats.Sheckles
 local GameInfo = MarketplaceService:GetProductInfo(game.PlaceId)
 
 --// ReGui
-local ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/VortexStudioDev/Dear-ReGui/refs/heads/main/ReGui.lua'))()
+local ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/depthso/Dear-ReGui/refs/heads/main/ReGui.lua'))()
 local PrefabsId = "rbxassetid://" .. ReGui.PrefabsId
 
 --// Folders
